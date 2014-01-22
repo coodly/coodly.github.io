@@ -1,1 +1,191 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--[if IE 7 ]>    <html class= "ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class= "ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class= "ie9"> <![endif]-->
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Professional iOS development</title>
+
+<!-- *************************************************************************
+**************************   STYLE SHEET   *******************************
+************************************************************************** -->
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<!-- *************************************************************************
+**************************        JS       *******************************
+************************************************************************** -->
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/custom.js"> </script>
+
+<!-- *************************************************************************
+*********************  THIS IS THE CONTACT FORM JS  **************************
+************************************************************************** -->
+
+<!--script type='text/javascript'>
+
+$(document).ready(function(){
+	var active_color = '#929191'; // Colour of user provided text
+	var inactive_color = '#929191'; // Colour of default text
+        	  $("input.default-value").css("color", inactive_color);
+        	  var default_values = new Array();
+        	  $("input.default-value").focus(function() {
+        	    if (!default_values[this.id]) {
+        	      default_values[this.id] = this.value;
+        	    }
+        	    if (this.value == default_values[this.id]) {
+        	      this.value = '';
+        	      this.style.color = active_color;
+        	    }
+        	    $(this).blur(function() {
+        	      if (this.value == '') {
+        	        this.style.color = inactive_color;
+        	        this.value = default_values[this.id];
+        	      }
+        	    });
+        	  });
+	
+        	$('#contactform').submit(function(){
+        
+            formvalues = $("#contactform").serialize();
+        
+            $.ajax({
+                type: "POST",
+                url: "mailer.php",
+                data: formvalues,
+                dataType: "json",
+                success: function(data) {
+                    if (data.success==1) {
+                        $("#contactwrapper").slideUp(750,function() {
+                            $('#contactmessage').html('Thanks! Please check your email to confirm your subscription.');
+                            });
+                    }
+                    else{
+                        if (data.invalid_email==1) { $('#contact_email').addClass("form_error"); }
+                            else { $('#contact_email').removeClass("form_error"); }
+                            
+                   }
+            }
+            });
+        	    return false; 
+        	});
+        
+        });
+</script-->
+
+<!-- END OF SCRIPT FOR MENU -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#form").val();
+});
+</script>
+
+</head>
+
+<body>
+
+<!-- Start of wrapper -->
+<div id="wrapper">
+    
+    <!-- Start of top content wrapper -->
+    <div id="top_content_wrapper">
+    
+    	<!-- Start of product image -->
+        <div id="product_image">
+                
+        </div><!-- End of product image -->
+        
+        <!-- Start of product content -->
+        <div id="product_content">
+        
+        <h2>Coodly LLC</h2>
+        <h6>iOS development</h6>
+        
+        <div class="clear_small"></div><!-- This is a clear fix -->
+        
+        <!--p>One for all and all for one, Muskehounds are always ready. One for all and all for one, helping everybody. One for all and all for one, it's a pretty story.</p-->
+                
+        </div><!-- End of product content -->
+
+    </div><!-- End of top content wrapper -->
+    
+    <div class="clear"></div><!-- This is a clear fix -->
+    
+    <!-- Start of main content wrapper -->
+    <div id="main_content_wrapper">
+    
+    	<!-- Start of main content -->
+        <div id="main_content">
+        
+        	<!-- Start of one third first -->
+            <div class="one_third_first">
+            
+            <h5>FAST</h5>
+            <img src="img/speedometer.png" width="237" height="215" alt="fast" />
+                        
+            </div><!-- End of one third first -->
+            
+            <!-- Start of one third -->
+            <div class="one_third">
+
+            <h5>SIMPLE</h5>            
+            <img src="img/app_icon.png" width="237" height="215" alt="simple" />
+            
+            </div><!-- End of one third -->
+            
+            <!-- Start of one third -->
+            <div class="one_third">
+            
+            <h5>EASY</h5>
+            <img src="img/cloud.png" width="237" height="215" alt="easy" />
+                        
+            </div><!-- End of one third -->
+            
+            <div class="clear"></div><!-- This is a clear fix -->
+        
+        </div><!-- End of main content -->
+        
+        <!-- Start of main content bottom -->
+        <div id="main_content_bottom">
+        
+        	<!-- Start of get some -->
+            <div id="get_some">
+            
+            </div><!-- End of get some -->
+        
+        </div><!-- End of main content bottom -->
+    
+    </div><!-- End of main content wrapper -->
+    
+    <div class="clear_small"></div><!-- This is a clear fix --> 
+    
+    <!-- Start of footer wrapper -->
+    <div id="footer_wrapper">
+            
+        <!-- Start of copyright -->
+        <div class="copyright">
+        <span class="pink">&copy; Copyright - <a href="http://www.coodly.com">Coodly LLC</a></span>
+        
+        </div><!-- End of copyright -->
+    
+    </div><!-- End of footer wrapper -->
+    
+    <div class="clear_small"></div><!-- This is a clear fix --> 
+    
+</div><!-- End of wrapper -->
+
+</body>
+
+</html>
