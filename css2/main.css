@@ -251,7 +251,7 @@ div .first {
 	}
 	
 .facebook a {
-	background:url("../img/facebook_sprite.jpg") no-repeat scroll 0 0 transparent;
+	background:url("../img2/facebook_sprite.jpg") no-repeat scroll 0 0 transparent;
     border:0 none;
     display:block;
     float:left;
@@ -271,7 +271,7 @@ div .first {
 	}
 	
 .facebook a:hover {
-	background:url("../img/facebook_sprite.jpg") no-repeat scroll 0 -35px transparent;
+	background:url("../img2/facebook_sprite.jpg") no-repeat scroll 0 -35px transparent;
     border:0 none;
     display:block;
     float:left;
@@ -282,7 +282,7 @@ div .first {
 	}
 	
 .tweet a {
-	background:url("../img/twitter_sprite.jpg") no-repeat scroll 0 0 transparent;
+	background:url("../img2/twitter_sprite.jpg") no-repeat scroll 0 0 transparent;
     border:0 none;
     display:block;
     float:left;
@@ -298,7 +298,7 @@ div .first {
 	}
 	
 .tweet a:hover {
-	background:url("../img/twitter_sprite.jpg") no-repeat scroll 0 -35px transparent;
+	background:url("../img2/twitter_sprite.jpg") no-repeat scroll 0 -35px transparent;
     border:0 none;
     display:block;
     float:left;
@@ -309,7 +309,7 @@ div .first {
 	}
 	
 #product_image {
-	background-image:url("../img/header_bground.jpg");
+	background-image:url("../img2/header_bground.jpg");
 	background-repeat:no-repeat;
 	height:536px;
 	clear:both;
@@ -386,7 +386,7 @@ div .first {
 	}
 	
 #main_content_bottom {
-	background-image:url("../img/benefit_footer.png");
+	background-image:url("../img2/benefit_footer.png");
 	background-repeat:no-repeat;
 	height:174px;
 	}
@@ -509,7 +509,7 @@ p.white {
 
 #sign_me_up {
 	width:753px;
-	background-image:url("../img/signup_background.png");
+	background-image:url("../img2/signup_background.png");
 	background-repeat:no-repeat;
 	height:151px;
 	margin-top:20px;
@@ -574,7 +574,7 @@ p.white {
 
 input[type=submit] {
 	background-color:transparent !important;
-	background-image:url("../img/signup_button.png");
+	background-image:url("../img2/signup_button.png");
 	background-repeat:no-repeat;
 	border:none !important;
 	cursor:pointer;
@@ -588,7 +588,7 @@ input[type=submit] {
 	
 input[type=submit]:hover {
 	background-color:transparent !important;
-	background-image:url("../img/signup_button.png");
+	background-image:url("../img2/signup_button.png");
 	background-repeat:no-repeat;
 	border:none !important;
 	cursor:pointer;
@@ -689,7 +689,7 @@ input, textarea, select {
 		
 	#product_image {
 		height:550px;
-		background-image:url("../img/header_bground2.jpg");
+		background-image:url("../img2/header_bground2.jpg");
 		background-repeat:no-repeat;
 		}
 		
@@ -711,7 +711,7 @@ input, textarea, select {
 		
 	#sign_me_up {
 		margin-left:0;
-		background-image:url("../img/signup_background2.png");
+		background-image:url("../img2/signup_background2.png");
 		background-repeat:no-repeat;
 		width:auto;
 		}
