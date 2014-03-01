@@ -1,4 +1,15 @@
 .dimmed {
-  width: 100%;
-  background-color: rgba(0,0,0,.5);
+    width: 100%;
+    background-color: rgba(0, 0, 0, .75);
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+
+.process {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.statement {
+    padding-bottom: 20pt;
 }
