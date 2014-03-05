@@ -2,7 +2,7 @@
     width: 100%;
     background-color: rgba(0, 0, 0, .75);
     padding-top: 20pt;
-    padding-bottom: 20pt;
+    padding-bottom: 21pt;
 }
 
 .process {
@@ -11,7 +11,7 @@
 }
 
 .statement {
-    padding-top: 100pt;
+    padding-top: 130pt;
     padding-bottom: 20pt;
 }
 
