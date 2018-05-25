@@ -35,6 +35,7 @@ If you have questions regarding this privacy policy, please e-mail [contact@cood
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
 * **May 1, 2018**: First published.
+* **May 25, 2018**: Toggl notice.
 
 
 [1]: mailto:contact@coodly.com
