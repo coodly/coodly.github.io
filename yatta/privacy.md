@@ -7,12 +7,17 @@ title: Privacy Policy
 This policy applies to all information collected by YATTA app.
 
 #### **YATTA**
-YATTA communicates on your behalf directly to [SlimTimer][5] API and has no need to send your details anywhere else.
+YATTA communicates on your behalf directly to [Toggl][7] and [SlimTimer][5] API. It has no need to send your details anywhere else.
 
 #### **SlimTimer**
 Your SlimTimer account details never leave your device.
 
 For SlimTimer privacy policy click [here][2]
+
+#### **Toggl**
+Your Toggl account details never leave your device.
+
+For Toggl privacy policy click [here][6]
 
 #### **In app feedback**
 In app feedback is done using open source project [CloudFeedback][4]. All conversations have to be initiated by clients and are anonymously saved in iCloud. We can only respond and never contact you through this channel.
@@ -37,3 +42,5 @@ If we decide to change our privacy policy, we will post those changes on this pa
 [3]: https://fabric.io
 [4]: https://github.com/coodly/CloudFeedback
 [5]: http://slimtimer.com
+[6]: https://toggl.com/legal/privacy/
+[7]: https://toggl.com
