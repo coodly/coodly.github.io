@@ -2,7 +2,9 @@
 layout: yatta
 title: Privacy Policy
 ---
-# Privacy policy
+## Find movies to watch
+
+## Privacy policy & Terms
 
 This policy applies to all information collected by **Find movies to watch** (**Find movies**) app.
 
@@ -17,17 +19,32 @@ For **The Movie DB** privacy policy click [here][2].
 #### **In app feedback**
 In app feedback is done using open source project [CloudFeedback][4]. All conversations have to be initiated by clients and are anonymously saved in iCloud. We can only respond and never contact you through this channel.
 
+#### **CloudInsight**
+This app uses open source project [CloudInsight][9] for minimal analytics. It tracks device model, OS version and time spent in the app.
+
 #### **AdMob**
 **Find movies** shows ads using [AdMob][6] SDK. You can find Google privacy policy [here][7].
 
-### **Firebase**
-**Find movies** uses [Firebase][8] for some AB testing and lightweight analytics to better understand app usage. You can find Google privacy policy [here][7].
-
-#### **Other services**
-**Find movies** uses [Fabric][3] to collect anonymous crash details and minimal app usage details. These are used to improve app stability.
-
 #### **Your Consent**
 By using **Find movies**, you consent to our privacy policy.
+
+---
+#### Personally-Identifying Information
+
+**Find movies** does not gather or transmit any Personally-Identifying Information outside of your local device. It only stores preferences about the user interface within its local database.
+
+#### Business Transfers
+
+If **Find movies**, or substantially all of its assets, were acquired, or in the unlikely event that **Find movies** goes out of business or enters bankruptcy, this policy and its effects may change or be amended. (As **Find movies** does not collect any information about you there is very little effect this would likely have in practice.)
+
+#### Privacy Policy Changes
+
+Although most changes are likely to be minor, **Find movies** may change its Privacy Policy from time to time, and at **Find movies**’s sole discretion. Your continued use of this app after any change in this Privacy Policy will constitute your acceptance of such change.
+
+#### Indemnity
+
+You hereby indemnify us and undertake to keep us indemnified against any losses, damages, costs, liabilities, and expenses (including, without limitation, legal expenses and any amounts paid by us to a third party in settlement of a claim or dispute on the advice of our legal advisers) incurred or suffered by us arising out of the use of this app or any breach by you of any provision of these terms of use, or arising out of any claim that you have breached any provision of these terms of use.
+___
 
 #### **Contacting Us**
 If you have questions regarding this privacy policy, please e-mail [contact@coodly.com][1]
@@ -35,6 +52,8 @@ If you have questions regarding this privacy policy, please e-mail [contact@cood
 #### **Changes to this policy**
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
+* **November 26, 2020**: Add legal boilerplate
+* **November 25, 2020**: Removed Firebase and Fabric
 * **October 3, 2018**: First published.
 
 [1]: mailto:contact@coodly.com
@@ -45,3 +64,4 @@ If we decide to change our privacy policy, we will post those changes on this pa
 [6]: https://admob.google.com/home/
 [7]: https://policies.google.com/privacy
 [8]: https://firebase.google.com
+[9]: https://github.com/coodly/CloudInsight
