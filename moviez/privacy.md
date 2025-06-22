@@ -1,5 +1,5 @@
 ---
-layout: yatta
+layout: default
 title: Privacy Policy
 ---
 ## Find movies to watch
