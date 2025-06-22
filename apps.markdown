@@ -8,7 +8,9 @@ title: Apps
 <div class="apps-grid">
 {% for app in site.data.apps %}
 <div class="app-card">
-  <div class="app-icon">{{ app.icon }}</div>
+  <div class="app-icon">
+    <img src="{{ app.icon }}" alt="{{ app.name }} icon">
+  </div>
   <div class="app-info">
     <h3>{{ app.name }}</h3>
     <p>{{ app.description }}</p>
@@ -39,13 +41,18 @@ title: Apps
 .app-icon {
   width: 80px;
   height: 80px;
-  background: #f8f9fa;
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
   flex-shrink: 0;
+  overflow: hidden;
+}
+
+.app-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .app-info {
