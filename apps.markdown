@@ -12,7 +12,9 @@ title: Apps
   <div class="app-info">
     <h3>{{ app.name }}</h3>
     <p>{{ app.description }}</p>
-    <a href="{{ app.app_store_url }}">View on App Store →</a>
+    <a href="{{ app.app_store_url }}">
+      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="height: 40px;">
+    </a>
   </div>
 </div>
 {% endfor %}
