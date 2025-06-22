@@ -15,7 +15,7 @@ title: Apps
     <h3>{{ app.name }}</h3>
     <p>{{ app.description }}</p>
     {% if app.coming_soon %}
-      <span class="coming-soon-badge">Coming Soon</span>
+      <button class="coming-soon-badge" onclick="openSignupModal('{{ app.name }}', '{{ app.google_form_id }}')">Coming Soon - Get Notified</button>
     {% else %}
       <a href="{{ app.app_store_url }}">
         <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="height: 40px;">
@@ -25,6 +25,40 @@ title: Apps
 </div>
 {% endfor %}
 </div>
+
+<!-- Email Signup Modal -->
+<div id="signupModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeSignupModal()">&times;</span>
+    <h2 id="modalTitle">Get Notified</h2>
+    <p>Enter your email to be notified when this app launches:</p>
+    
+    <iframe id="googleForm" src="" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">
+      Loading…
+    </iframe>
+  </div>
+</div>
+
+<script>
+function openSignupModal(appName, formId) {
+  document.getElementById('modalTitle').textContent = 'Get Notified - ' + appName;
+  document.getElementById('googleForm').src = 'https://docs.google.com/forms/d/e/' + formId + '/viewform?embedded=true';
+  document.getElementById('signupModal').style.display = 'block';
+}
+
+function closeSignupModal() {
+  document.getElementById('signupModal').style.display = 'none';
+  document.getElementById('googleForm').src = ''; // Clear form when closing
+}
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+  const modal = document.getElementById('signupModal');
+  if (event.target == modal) {
+    closeSignupModal();
+  }
+}
+</script>
 
 <style>
 .apps-grid {
@@ -80,10 +114,50 @@ title: Apps
 .coming-soon-badge {
   display: inline-block;
   padding: 8px 16px;
-  background: #f0f0f0;
-  color: #666;
+  background: #007aff;
+  color: white;
+  border: none;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.coming-soon-badge:hover {
+  background: #0056b3;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
 }
 </style>
