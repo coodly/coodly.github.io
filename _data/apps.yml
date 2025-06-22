@@ -1,0 +1,29 @@
+- name: "Your Daily Calories"
+  description: "Track your daily calorie intake with Apple Health integration."
+  icon: "🍎"
+  app_store_url: "#"
+
+- name: "You Are Doomed"
+  description: "A challenging puzzle game that will test your strategic thinking."
+  icon: "💀"
+  app_store_url: "#"
+
+- name: "Gambrinus"
+  description: "Discover and rate your favorite beers with this beer enthusiast app."
+  icon: "🍺"
+  app_store_url: "#"
+
+- name: "Find Movies to Watch"
+  description: "Discover your next favorite movie with personalized recommendations."
+  icon: "🎬"
+  app_store_url: "#"
+
+- name: "TenPair"
+  description: "A game of numbers that challenges your mathematical thinking."
+  icon: "🔢"
+  app_store_url: "#"
+
+- name: "YATTA"
+  description: "Time tracking and productivity app with Toggl integration."
+  icon: "⚡"
+  app_store_url: "#"
