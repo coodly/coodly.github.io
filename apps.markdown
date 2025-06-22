@@ -14,9 +14,13 @@ title: Apps
   <div class="app-info">
     <h3>{{ app.name }}</h3>
     <p>{{ app.description }}</p>
-    <a href="{{ app.app_store_url }}">
-      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="height: 40px;">
-    </a>
+    {% if app.coming_soon %}
+      <span class="coming-soon-badge">Coming Soon</span>
+    {% else %}
+      <a href="{{ app.app_store_url }}">
+        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="height: 40px;">
+      </a>
+    {% endif %}
   </div>
 </div>
 {% endfor %}
@@ -71,5 +75,15 @@ title: Apps
 .app-info a {
   color: #007aff;
   text-decoration: none;
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #f0f0f0;
+  color: #666;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
 }
 </style>
