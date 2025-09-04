@@ -2,6 +2,19 @@
 layout: default
 title: Showdown - Poker Stats Tracker
 permalink: /showdown/
+screenshots:
+  - image: "/assets/images/showdown/showdown-dashboard.png"
+    alt: "Showdown app running period dashboard screen"
+    caption: "View your running period performance at a glance"
+  - image: "/assets/images/showdown/showdown-statistics.png"
+    alt: "Player statistics screen showing hero and villain stats"
+    caption: "Detailed statistics for both hero and villain players"
+  - image: "/assets/images/showdown/showdown-hand-history.png"
+    alt: "Hand history list view in Showdown app"
+    caption: "Browse and review your complete hand history"
+  - image: "/assets/images/showdown/showdown-hand-replay.png"
+    alt: "Hand replay feature showing poker hand step-by-step"
+    caption: "Interactive hand replay with step-by-step analysis"
 ---
 
 # Showdown: Poker Stats Tracker
@@ -9,6 +22,10 @@ permalink: /showdown/
 **Analyze your poker game like never before.**
 
 Showdown transforms your PokerStars hand histories into powerful insights. Whether you're a casual player or serious grinder, understand your play patterns, spot leaks, and track your improvement over time.
+
+## Screenshots
+
+{% include screenshot-gallery.html screenshots=page.screenshots %}
 
 ## Key Features
 
