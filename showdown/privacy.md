@@ -8,6 +8,12 @@ title: Privacy Policy
 
 This policy applies to all information collected by **Showdown** app.
 
+#### **Showdown**
+**Showdown** stores your poker session data locally on your device and syncs it to your private iCloud container. Nobody besides you can access this data.
+
+#### **RevenueCat**
+In-app purchases are validated using [RevenueCat][3] SDK. You can find their privacy policy [here][4].
+
 #### **Your Consent**
 By using **Showdown**, you consent to our privacy policy.
 
@@ -35,6 +41,9 @@ If you have questions regarding this privacy policy, please e-mail [contact@cood
 #### **Changes to this policy**
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
+* **September 04, 2025**: Added RevenueCat.
 * **August 24, 2025**: First published.
 
 [1]: mailto:contact@coodly.com
+[3]: https://www.revenuecat.com
+[4]: https://www.revenuecat.com/privacy
