@@ -4,7 +4,7 @@ title: Privacy Policy
 ---
 ## Showdown: Poker Stats Tracker
 
-## Privacy policy & Terms
+## Privacy Policy
 
 This policy applies to all information collected by **Showdown** app.
 
@@ -30,9 +30,6 @@ If **Showdown**, or substantially all of its assets, were acquired, or in the un
 
 Although most changes are likely to be minor, **Showdown** may change its Privacy Policy from time to time, and at **Showdown**’s sole discretion. Your continued use of this app after any change in this Privacy Policy will constitute your acceptance of such change.
 
-#### Indemnity
-
-You hereby indemnify us and undertake to keep us indemnified against any losses, damages, costs, liabilities, and expenses (including, without limitation, legal expenses and any amounts paid by us to a third party in settlement of a claim or dispute on the advice of our legal advisers) incurred or suffered by us arising out of the use of this app or any breach by you of any provision of these terms of use, or arising out of any claim that you have breached any provision of these terms of use.
 ___
 
 #### **Contacting Us**
