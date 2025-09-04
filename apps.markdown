@@ -12,7 +12,11 @@ title: Apps
     <img src="{{ app.icon }}" alt="{{ app.name }} icon">
   </div>
   <div class="app-info">
-    <h3>{{ app.name }}</h3>
+    {% if app.local_page %}
+      <h3><a href="{{ app.local_page }}">{{ app.name }}</a></h3>
+    {% else %}
+      <h3>{{ app.name }}</h3>
+    {% endif %}
     <p>{{ app.description }}</p>
     {% if app.coming_soon %}
       <button class="coming-soon-badge" onclick="openSignupModal('{{ app.name }}', '{{ app.google_form_id }}')">Coming Soon - Get Notified</button>

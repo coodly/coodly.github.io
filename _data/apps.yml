@@ -26,4 +26,5 @@
 - name: "Showdown: Poker Stats Tracker"
   description: "Track hands, stats & leaks"
   icon: "/assets/images/apps/showdown.png"
-  google_form_id: "https://apps.apple.com/app/showdown-poker-stats-tracker/id6746968122"
+  app_store_url: "https://apps.apple.com/app/showdown-poker-stats-tracker/id6746968122"
+  local_page: "/showdown/"
