@@ -2,6 +2,7 @@
   description: "Find Movies – Instantly See What's Available on iTunes, Netflix & Prime Video"
   icon: "/assets/images/apps/moviez.png"
   app_store_url: "https://apps.apple.com/app/find-movies-to-watch/id1107657424"
+  local_page: "/moviez/"
 
 - name: "Your Daily Calories"
   description: "Track your daily calorie intake with Apple Health integration."
