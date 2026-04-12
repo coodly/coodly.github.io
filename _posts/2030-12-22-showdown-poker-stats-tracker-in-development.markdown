@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Introducing Showdown: Poker Stats Tracker"
-date: 2026-12-22 10:00:00 +0300
+date: 2030-12-22 10:00:00 +0300
 categories: apps development
 ---
 

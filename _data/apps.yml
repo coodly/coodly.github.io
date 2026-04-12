@@ -22,6 +22,7 @@
   description: "Time tracking and productivity app with Toggl integration."
   icon: "/assets/images/apps/yatta.png"
   app_store_url: "https://apps.apple.com/app/yatta-time-tracking-on-toggl/id793812713"
+  local_page: "/yatta/"
 
 - name: "Showdown: Poker Stats Tracker"
   description: "Track hands, stats & leaks"

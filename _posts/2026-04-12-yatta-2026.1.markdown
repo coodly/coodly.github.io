@@ -1,0 +1,13 @@
+---
+layout: post
+title: "YATTA - time tracking on Toggl - 2026.1"
+date: 2026-04-12 00:00:00 +0300
+categories: yatta ios
+---
+
+*Change log*
+* Updated UI to Liquid Glass
+* Better Toggl quota handling
+* Improved sync logic
+* Added lifetime sync unlock
+
