@@ -19,6 +19,9 @@ For **The Movie DB** privacy policy click [here][2].
 #### **In app feedback**
 In app feedback is done using open source project [CloudFeedback][4]. All conversations have to be initiated by clients and are anonymously saved in iCloud. We can only respond and never contact you through this channel.
 
+#### **AdMob**
+**Find movies** shows ads using [AdMob][6] SDK. When you grant permission through iOS App Tracking Transparency, AdMob may show personalized ads based on your interests and activity across apps and websites. If you decline tracking permission, you will receive non-personalized ads. You can find Google privacy policy [here][7].
+
 #### **Your Consent**
 By using **Find movies**, you consent to our privacy policy.
 
@@ -46,6 +49,7 @@ If you have questions regarding this privacy policy, please e-mail [contact@cood
 #### **Changes to this policy**
 If we decide to change our privacy policy, we will post those changes on this page. Summary of changes so far:
 
+* **July 14, 2026**: Add AdMob
 * **April 14, 2025**: Remove AdMob
 * **November 26, 2020**: Add legal boilerplate
 * **November 25, 2020**: Removed Firebase and Fabric
