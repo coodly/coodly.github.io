@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Find Movies to Watch - 2026.6"
+date: 2026-07-17 03:00:00 +0300
+categories: movies ios
+---
+
+*Change log*
+* Better Prime Video coverage - stream/rent/buy
+
+<a href="https://apps.apple.com/app/find-movies-to-watch/id1107657424?itscg=30200&itsct=apps_box_badge&mttnsubad=1107657424" style="display: inline-block;">
+<img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1465862400" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+</a>
+

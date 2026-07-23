@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Showdown: Poker Stats Tracker - 2026.5"
+date: 2026-07-22 03:00:00 +0300
+categories: showdown ios poker
+---
+
+*Change log*
+* Perform faster villain search using screenshots
+* Introduce session villains
+* Enable Liquid Glass
+
+
+<a href="https://apps.apple.com/app/showdown-poker-stats-tracker/id6746968122?itscg=30200&itsct=apps_box_badge&mttnsubad=6746968122" style="display: inline-block;">
+<img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1756944000" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+</a>
+    
